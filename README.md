@@ -1,4 +1,4 @@
-# yeldarb-semaj.github.io
+# yeldarb-semaj | Bradley James
 Visual resume
     My attempt at making a personal website
     I hope this will help make me a more interesting candidate to hire
@@ -6,3 +6,8 @@ Visual resume
 
                             Bradley |        James|
                                     | yeldarB     | semaJ
+
+
+# sources
+    Traversy Media
+        https://www.youtube.com/c/TraversyMedia
