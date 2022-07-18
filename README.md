@@ -11,3 +11,6 @@ Visual resume
 # sources
     Traversy Media
         https://www.youtube.com/c/TraversyMedia
+    Colour palette
+        https://coolors.co/palette/22223b-4a4e69-9a8c98-c9ada7-f2e9e4
+        
