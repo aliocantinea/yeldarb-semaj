@@ -16,8 +16,8 @@ body {
 }
 
 .scroll {
-    scroll-margin-block-start: 25px;
-    scroll-padding-block-end: 100px;
+    scroll-margin-block-start: 50px;
+    scroll-padding-block-end: 50px;
 }
 
 .container {
@@ -50,7 +50,6 @@ a:hover {
 
 .slide:hover {
     transform: translateY(15px);
-    border: #22223B;
 }
 
 .slidesmall {
@@ -59,7 +58,6 @@ a:hover {
 
 .slidesmall:hover {
     transform: translateY(5px);
-    border: #22223B;
 }
 /* header */
 .title {
@@ -100,7 +98,7 @@ a:hover {
 
 /* intro */
 #intro {
-
+    margin: 20px;
 }
 
 /* grid item */
