@@ -14,19 +14,42 @@
 <body>
 
 <!-- Header -->
-<div class="header">
-    <div class="profile-picture slide">
-        <img src="Images/mugshot.png" alt="Profile picture">
-    </div>
+<div class="header" id="header">
+    <header>
+<!-- Navigation -->
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="#header">
+                        <div class="profile-picture slide" >
+                            <img src="Images/mugshot.png" alt="Profile picture">
+                        </div>
+                    </a>
+                </li>
+                <li class="grow">
+                    <a href="#intro">Introduction</a>
+                </li>
+                <li class="grow">
+                    <a href="#achievements">Achievements</a>
+                </li>
+                <li class="grow">
+                    <a href="#"></a>
+                </li>
+                <li class="grow">
+                    <a href="#socials">Socials</a>
+                </li>                
+            </ul>
+        </div>
+    </header>
 </div>
 
-<!-- Navigation -->
-<div class="nav">
+<!-- Intro -->
+<div class="container scroll" id="intro">
 
 </div>
 
 <!-- Achievements -->
-<div class="container">
+<div class="grid-container scroll" id="achievements">
     <div class="icon grow" id="glasses">
         <img src="Images/mugshot.png" alt="Profile picture">
     </div>
@@ -42,9 +65,7 @@
 </div>
 
 <!-- Footer -->
-
-<div class="footer">
-    <div class="socials">
+<div class="footer scroll" id="socials">
     <ul>
         <li class="grow" id="twitter"> 
             <a href="https://twitter.com/AliocantineaJP" alt="Twitter">
@@ -71,6 +92,6 @@
 
 <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="JS/main.js"></script>
-</body>
 
+</body>
 </html>
