@@ -2,17 +2,33 @@
 /* global */
 * {
     padding: 0;
-
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
 
 body {
     background-color: #4a4e69;
-    justify-content: center;
+    margin: 0%;
+    color: #F2E9E4;
+}
+
+.scroll {
+    scroll-margin-block-start: 50px;
+    scroll-padding-block-end: 50px;
+}
+
+.container {
+    width: 100%;
+    height: 80vh;
 }
 
     /* links */
 a {
     color:  #4a4e69;
+    text-decoration: none;
 }
 
 a:hover {
@@ -33,46 +49,58 @@ a:hover {
 }
 
 .slide:hover {
-    transform: translateY(25px);
+    transform: translateY(15px);
     border: #22223B;
 }
 
-/* header */
-.header {
-    display: flex;
-    justify-content: center;
-    /* margin-bottom: 50px; */
-}
+/* nav */
 
 .profile-picture img {
-    position: absolute;
-    overflow: hidden;
-    border: 5px solid #4a4e69;
     border-radius: 50%;
     width: 128px;
-    height: 128px;
+    z-index: 2;
+}
+
+.nav {
+    display: flex;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 4rem;
+    border-radius: 0 0 7px 7px;
+    background-color: #F2E9E4;
     z-index: 1;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, -30%);
+}
+
+.nav ul {
+    list-style-type: none;
+    display: inline;
+    margin-left: 75px;
+}
+
+.nav li {
+    float: left;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+}
+
+
+/* intro */
+#intro {
+    margin-top: 30vh;
+    position: relative;
 }
 
 /* grid item */
 
-.container {
-    position: absolute;
-    border: #22223B;
+.grid-container {
     display: grid;
-    grid-template-columns: repeat(7, 1fr);
-    grid-template-rows: repeat(7, 1fr);
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(11, 1fr);
     place-items: center;
     justify-content: center;
     align-content: center;
-    /* position: absolute; */
-    top: 100px;
-    bottom: 20px;
-    left: 0;
-    right: 0;
     margin: 20px;
     gap: 10px;
 }
@@ -96,31 +124,31 @@ a:hover {
 
 /* grid ordering */
 .icon:nth-of-type(1) {
-    grid-column: 4;
-    grid-row: 4;
+    grid-column: 6;
+    grid-row: 6;
 }
 
 /* footer */
 .footer {
-    position: fixed;
     right: 0;
     bottom: 0;
     width: 100%;
+    height: 2.5rem;
     background-color: #F2E9E4;
     border-radius: 7px 7px 0 0;
 }
 
-ul {
+.footer ul {
     list-style-type: none;
     margin-right: 20px;
     display: inline;
 }
 
-li {
+.footer li {
     float: right;
     margin: .5rem;
 }
 
-li:nth-child(odd) {
+.footer li:nth-child(odd) {
     margin-right: 1rem;
 }
