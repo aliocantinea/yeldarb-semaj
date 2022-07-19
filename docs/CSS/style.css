@@ -16,8 +16,8 @@ body {
 }
 
 .scroll {
-    scroll-margin-block-start: 50px;
-    scroll-padding-block-end: 50px;
+    scroll-margin-block-start: 25px;
+    scroll-padding-block-end: 100px;
 }
 
 .container {
@@ -25,7 +25,7 @@ body {
     height: 80vh;
 }
 
-    /* links */
+/* links */
 a {
     color:  #4a4e69;
     text-decoration: none;
@@ -35,7 +35,7 @@ a:hover {
     color: #22223B;
 }
 
-    /* transform */
+/* transform */
 .grow {
     transition: all .2s ease-in-out;
 }
@@ -53,8 +53,20 @@ a:hover {
     border: #22223B;
 }
 
-/* nav */
+.slidesmall {
+    transition: all .5s ease;
+}
 
+.slidesmall:hover {
+    transform: translateY(5px);
+    border: #22223B;
+}
+/* header */
+.title {
+    height: 20vh;
+}
+
+/* nav */
 .profile-picture img {
     border-radius: 50%;
     width: 128px;
@@ -88,8 +100,7 @@ a:hover {
 
 /* intro */
 #intro {
-    margin-top: 30vh;
-    position: relative;
+
 }
 
 /* grid item */
