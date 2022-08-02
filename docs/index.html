@@ -13,26 +13,28 @@
 
 <body>
 
+<!-- Profile picture -->
+<div class="sticky">
+    <div class="profile-picture slide" >
+        <a href="#intro">
+            <img src="Images/mugshot.jpg" alt="Profile picture">
+        </a>
+    </div>
+</div>
+
 <!-- Navigation -->
 <nav class="nav">
     <ul>
-        <li>
-            <a href="#title">
-                <div class="profile-picture slide" >
-                    <img src="Images/mugshot.jpg" alt="Profile picture">
-                </div>
-            </a>
-        </li>
-        <li class="slidesmall">
-            <a href="#intro">Introduction</a>
-        </li>
-        <li class="slidesmall">
+        <li class="slide-small">
             <a href="#achievements">Achievements</a>
         </li>
-        <li class="slidesmall">
+        <li class="slide-small">
+            <a href="#resume">Resume</a>
+        </li>
+        <li class="slide-small">
             <a href="#"></a>
         </li>
-        <li class="slidesmall">
+        <li class="slide-small">
             <a href="#socials">Socials</a>
         </li>                
     </ul>
@@ -40,42 +42,37 @@
 
 
 <!-- Header -->
-<header class="scroll" id="title">
-
-    <!-- Intro -->
-    <div class="scroll" id="intro">
-        <h1>
-            Bradley James
-        </h1>
-        <h6>
-            yeldarB semaJ, my name backwards.... 
-            because it is a really common name!
-        </h6>
-        <p>This is my visual resume, to showcase what I have leaned and what my goals are so far.</p>
-        <p>Below I have added a gameresc style spec tree help you learn a bit about me. 
-        Hopefully this gives you a better idea of what my skills are but also a glimps into who I am as a person.</p>
-        <p>I would love the feedback so feel free to use my socials in the footer to message me with ideas or suggestions!</p>
-    </div>
-
+<header class="intro-container scroll" id="intro">
+    <h1>
+        Bradley James
+    </h1>
+    <h6>
+        yeldarB semaJ, my name backwards.... 
+        because it is a really common name!
+    </h6>
+    <p>This is my visual resume, to showcase what I have leaned and what my goals are so far.</p>
+    <p>Below I have added a gameresque style spec tree help you learn a bit about me. 
+    Hopefully this gives you a better idea of what my skills are but also a glimpse into who I am as a person.</p>
+    <p>I would love the feedback so feel free to use my socials in the footer to message me with ideas or suggestions!</p>
 </header>
 
 <!-- Achievements -->
 <div class="grid-container scroll" id="achievements">
-    <div class="icon slide" id="glasses">
-        <p class="word hidden">Me</p>
-        <img src="Images/glasses.png" alt="Glasses">
+    <div class="icon" id="glasses">
+        <img class="slide-grid" src="Images/glasses.png" alt="Glasses">
+        <p class="word">Me</p>
     </div>
-    <div class="icon slide">
-        <p class="word hidden">Work</p>
-        <img src="Images/work.png" alt="Work">
+    <div class="icon">
+        <img class="slide-grid" src="Images/work.png" alt="Work">
+        <p class="word">Work</p>
     </div>
-    <div class="icon slide">
-        <p class="word hidden">Education</p>
-        <img src="Images/learning.png" alt="Education">
+    <div class="icon">
+        <img class="slide-grid" src="Images/learning.png" alt="Education">
+        <p class="word">Learn</p>
     </div>
-    <div class="icon slide">
-        <p class="word hidden">Entertainment</p>
-        <img src="Images/fun.png" alt="Entertainment">
+    <div class="icon">
+        <img class="slide-grid" src="Images/fun.png" alt="Entertainment">
+        <p class="word">Fun</p>
     </div>
 </div>
 
