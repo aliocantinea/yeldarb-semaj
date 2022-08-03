@@ -9,6 +9,9 @@ Visual resume
 
 
 # sources
+    Fireship
+        https://www.youtube.com/c/Fireship
+        https://github.com/codediodeio
     Traversy Media
         https://www.youtube.com/c/TraversyMedia
     Colour palette
