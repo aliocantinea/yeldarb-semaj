@@ -56,10 +56,9 @@ a:hover {
 }
 
 .name:hover ~ .fineprint {
-    filter: opacity(950%);
+    filter: opacity(100%);
     transform: translateY(-95px);
 }
-
 
 .grow {
     transition: all .2s ease-in;
@@ -103,9 +102,6 @@ a:hover {
 
 
 /* header */
-/* .title {
-    margin-bottom: 20vh;
-} */
 
 .profile-picture img {
     float: left;
